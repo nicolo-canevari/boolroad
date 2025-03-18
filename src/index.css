@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+
+  font-family: 'Times New Roman', Times, serif;
+  /* background: linear-gradient(to right, #ffffff, #4caf50, #2196f3); */
+  background-image: url(./public/img/bkg.png);
+  color: black;
+
+}
+
+.header-bg {
+  /* background: linear-gradient(to right, #ffffff, #4caf50, #2196f3); */
+  padding: 20px 0;
+  color: white;
+}
+
+/* logo header */
+img {
+  width: 18vw;
+}
+
+/* icona aggiungi viaggio e viaggiatore */
+.fa-square-plus {
+  font-size: 4vw;
+  color: white;
+}
+
+.fa-square-plus:hover {
+  transform: scale(1.2);
+}
+
+/* lista dei viaggi */
+.list-group-item {
+  background: transparent;
+  background-color: rgba(250, 250, 250, 0.4);
+  backdrop-filter: blur(10px);
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1vw;
+}
+
+.list-group-item:hover {
+  background-color: rgba(243, 242, 242, 0.794);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.luogo {
+  font-size: 1.4em;
+
+}
