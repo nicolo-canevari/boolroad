@@ -45,7 +45,7 @@ const TripDetails = () => {
                     ))}
                 </ul>
 
-                <button><Link to="/">Home</Link></button>
+                <button className='back-to' ><Link to="/">Home</Link></button>
 
             </div >
 

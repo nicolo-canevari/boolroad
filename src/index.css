@@ -6,16 +6,12 @@
 
 
 body {
-
   font-family: 'Times New Roman', Times, serif;
-  /* background: linear-gradient(to right, #ffffff, #4caf50, #2196f3); */
   background-image: url(./public/img/bkg.png);
   color: black;
-
 }
 
 .header-bg {
-  /* background: linear-gradient(to right, #ffffff, #4caf50, #2196f3); */
   padding: 20px 0;
   color: white;
 }
@@ -57,4 +53,10 @@ a {
 .luogo {
   font-size: 1.4em;
 
+}
+
+.back-to {
+  border: none;
+  border-radius: 8px;
+  background-color: red;
 }

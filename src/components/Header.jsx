@@ -30,7 +30,7 @@ export default function Header() {
                     <ul className="navbar-nav">
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/add-trip"><i class="fa-regular fa-square-plus"></i></Link>
+                            <Link className="nav-link" to="/add-trip"><i className="fa-regular fa-square-plus"></i></Link>
                         </li>
 
                     </ul>
