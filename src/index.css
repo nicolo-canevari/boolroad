@@ -4,26 +4,30 @@
   box-sizing: border-box;
 }
 
-
+/* Stile generale del body */
 body {
   font-family: 'Times New Roman', Times, serif;
-  background-image: url(./public/img/bkg.png);
+  background-image: url(../public/img/bkg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vH;
   color: black;
 }
 
+/* Stile per il background dell'header */
 .header-bg {
   padding: 20px 0;
   color: white;
 }
 
-/* logo header */
+/* Stile per il logo nell'header */
 img {
   width: 18vw;
 }
 
-/* icona aggiungi viaggio e viaggiatore */
+/* Stile per l'icona di aggiunta viaggio e viaggiatore */
 .fa-square-plus {
-  font-size: 4vw;
+  font-size: 50px;
   color: white;
 }
 
@@ -31,7 +35,7 @@ img {
   transform: scale(1.2);
 }
 
-/* lista dei viaggi */
+/* Stile per gli elementi della lista dei viaggi */
 .list-group-item {
   background: transparent;
   background-color: rgba(250, 250, 250, 0.4);
@@ -45,18 +49,62 @@ img {
   background-color: rgba(243, 242, 242, 0.794);
 }
 
+/* Stile generale per i link */
 a {
   text-decoration: none;
   color: black;
 }
 
+/* Stile per il nome della destinazione */
 .luogo {
   font-size: 1.4em;
-
 }
 
+/* Stile per il pulsante "Torna indietro" */
 .back-to {
   border: none;
   border-radius: 8px;
-  background-color: red;
+  background-color: #199fbd;
+  padding: 4px;
+  margin-top: 10px;
+  color: white;
+}
+
+/* Stile per i link con classe "white" */
+.white {
+  color: #fff;
+}
+
+/* Stile per i gruppi di input nei form */
+.form-group {
+  border-radius: 8px;
+  margin-bottom: 0.3vw;
+}
+
+/* Stile per il link "Dettagli" */
+.dettagli {
+  color: #199fbd;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dettagli:hover {
+  color: #086b81;
+}
+
+
+/* Stili specifici per dispositivi con larghezza massima di 576px */
+@media (max-width:576px) {
+
+  /* Ridimensiona il logo */
+  img {
+    min-width: 155px;
+  }
+
+  /* Adatta il pulsante "Torna indietro" ai dispositivi mobili */
+  .back-to {
+    padding: 5px 30px;
+    font-size: 20px;
+  }
+
 }
