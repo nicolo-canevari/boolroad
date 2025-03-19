@@ -6,8 +6,10 @@ const HomePage = () => {
     return (
 
         <div>
+
             {/* Mostra il componente TripList all'interno della homepage */}
             <TripList />
+
         </div>
 
     );

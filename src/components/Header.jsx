@@ -14,11 +14,19 @@ export default function Header() {
                 <Link className="navbar-brand" to="/"><img src="../public/img/logo.png" alt="" /></Link>
 
                 {/* Contenitore per i link della navbar */}
-                <div className="" id="navbarNav">
+                <div className="navbar-icon" id="navbarNav">
 
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav d-flex flex-row gap-3">
 
                         {/* Link per aggiungere un nuovo viaggio */}
+                        <li className="nav-item">
+                            <i class="fa-regular fa-address-book"></i>
+                        </li>
+
+                        <li className="nav-item">
+                            <i class="fa-regular fa-user"></i>
+                        </li>
+
                         <li className="nav-item">
                             <Link className="nav-link" to="/add-trip"><i className="fa-regular fa-square-plus"></i></Link>
                         </li>

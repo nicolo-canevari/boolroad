@@ -27,11 +27,24 @@ img {
 
 /* Stile per l'icona di aggiunta viaggio e viaggiatore */
 .fa-square-plus {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 }
 
 .fa-square-plus:hover {
+  transform: scale(1.2);
+}
+
+/* Stile per le icone della navbar */
+.fa-address-book,
+.fa-user {
+  margin-top: 8px;
+  font-size: 40px;
+  color: white;
+}
+
+.fa-address-book:hover,
+.fa-user:hover {
   transform: scale(1.2);
 }
 
